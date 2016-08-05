@@ -29,3 +29,6 @@ Please feel free to use a different markup language if you do not plan to run
 
 Install PostgreSql Database on App Rails
 https://github.com/Aerogami/guides/wiki/Cloud9-workspace-setup-with-Rails-and-Postgresql
+
+Deploy App Rails on Heroku
+https://devcenter.heroku.com/articles/getting-started-with-rails4#specify-ruby-version-in-app
