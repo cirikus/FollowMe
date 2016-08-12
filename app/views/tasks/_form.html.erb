@@ -12,16 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br>
+    <%= f.label "Title" %><br>
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :openingDate %><br>
-    <%= f.date_select :openingDate %>
-  </div>
-  <div class="field">
-    <%= f.label :closingDate %><br>
-    <%= f.date_select :closingDate %>
+    <%= f.label "Opening Date" %><br>
+    <%= f.date_select :openingDate, :order => [:day, :month, :year] %>
   </div>
   <div class="actions">
     <%= f.submit %>
